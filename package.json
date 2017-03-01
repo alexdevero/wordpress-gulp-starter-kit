@@ -52,6 +52,6 @@
     "wp-ajax-page-loader": "^0.3.0"
   },
   "scripts": {
-    "postinstall": "mv node_modules/normalize.css/normalize.css node_modules/normalize.css/_normalize.scss"
+    "postinstall": "cp ./node_modules/normalize.css/_normalize.scss ./src/scss/_base/_normalize.scss"
   }
 }
